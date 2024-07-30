@@ -1,6 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { render } from '@staart/mustache-markdown';
 import { SES } from 'aws-sdk';
 import { promises as fs } from 'fs';
 import mem from 'mem';
